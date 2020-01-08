@@ -1,4 +1,4 @@
-const noteRoutes = reqire ('./node_routes');
+const noteRoutes = reqire ('./note_routes');
 
 module.exports = function (app, db) {
     noteRoutes (app, db);
